@@ -1,8 +1,5 @@
-<h1>Help</h1>
-<p>
-  Get help on the Ruby on Rails Tutorial at the
-  <a href="http://www.railstutorial.org/help">Rails Tutorial help page</a>.
-  To get help on this sample app, see the
-  <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
-  book</a>.
+<h1><%= t(".help")%></h1>
+<p><%= raw t("views.static_pages.help.help_t",
+    help_p: link_to(t("views.static_pages.help.help_p"), "http://www.railstutorial.org/help"),
+    rail_t: link_to(t("views.static_pages.rail_t"), "http://www.railstutorial.org/help"))%>
 </p>
