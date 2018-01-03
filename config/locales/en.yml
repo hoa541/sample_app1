@@ -21,7 +21,7 @@
 #
 # true, false, on, off, yes, no
 #
-# Instead, surround them with single quotes.
+# Instead, surround tthhem with single quotes.
 #
 # en:
 #   'true': 'foo'
@@ -30,4 +30,34 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  views:
+    static_pages:
+      rail_t: Ruby on Rails Tutorial
+      home:
+        welcome: Welcome to the Sample App
+        home_t: This is the home page for the %{rail_t} sample application.
+        sign_up: Sign up now!
+      help:
+        help: Help
+        help_p: Rails Tutorial help page
+        help_t: Get help on the Ruby on Rails Tutorial at the %{help_p}.To get help on this sample app, see the %{rail_t}
+      about:
+        about: About
+        book: book
+        ruby_on_rail: Ruby on Rails
+        screens: screencast series
+        about_t: The %{rail_t} is a %{book} end %{screens} to teach web development with %{ruby_on_rail}.This is the sample application for the tutorial.
+    layouts:
+      footer:
+        contact: Contact
+        about: About
+        rail_t: Ruby on Rails Tutorial
+        authors: Michael Hartl
+      header:
+        sample: sample app
+        home: Home
+        help: Help
+        login: Log in
+
+
+
