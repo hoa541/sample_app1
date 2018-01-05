@@ -53,6 +53,7 @@ en:
         about: About
         rail_t: Ruby on Rails Tutorial
         authors: Michael Hartl
+        new: New
       header:
         sample: sample app
         home: Home
